@@ -1,4 +1,4 @@
-This project was developed in order to pratice REACT .
+This project was developed in order to practice REACT .
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
