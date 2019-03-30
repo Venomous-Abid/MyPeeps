@@ -3,6 +3,7 @@ import CardList from './CardList';
 import {peoples} from './people';
 import SearchBox from './SearchBox';
 import './App.css';
+import Scroll from './Scroll';
 
 
 
@@ -58,7 +59,9 @@ class App extends Component {
 
 		<SearchBox searchChange={this.onSearchChange}/>
 
+		<Scroll>
 		<CardList peoples={filterPeoples}/> 
+		</Scroll>
 
 		</div>
 		);
